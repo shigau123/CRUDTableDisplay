@@ -43,7 +43,7 @@ console.log(this.myform.value);
  }
  passValidaton(){
     //  console.log(this);
-    if(this.pass.value===this.cpass.value){
+    if(this.pass?.value===this.cpass?.value){
   
       this.flag=false
       this.flag2=false
