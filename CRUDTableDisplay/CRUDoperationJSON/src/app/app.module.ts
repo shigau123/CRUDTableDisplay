@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import{HttpClientModule} from '@angular/common/http'
 import { RegisterComponent } from './register/register.component';
-
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AddEmployeeComponent,RegisterComponent
+    AddEmployeeComponent,RegisterComponent, LoginComponent
   ],
   imports: [
     BrowserModule,

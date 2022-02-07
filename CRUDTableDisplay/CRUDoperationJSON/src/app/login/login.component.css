@@ -1,0 +1,21 @@
+a{
+    color: rgb(3, 3, 192);
+}
+
+input{
+    background-color:#f1eeee;
+}
+.margin1{
+    margin-top: 50px;
+    margin-left: 120px;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  p{
+     
+    color:white ;
+  }
+  .container
+  {
+      margin-top: 20px;
+  }

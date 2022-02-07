@@ -1,0 +1,32 @@
+
+
+<div class="container bg-primary mt-0 "  style="width: 500px; border-radius: 10px; height: 400px; margin-top: 100px;">
+    <span class="margin1" style="margin-top: 10px; "> Sign in to Your Account</span>
+   
+   <div class="container">
+   <form [formGroup]='myform' (ngSubmit)="Signin()">
+   
+     <div class="form-group ">
+       <label for="exampleInputName" class="text-dark">Email address</label>
+       <input type="text" class="form-control" placeholder="Enter Your email address."  formControlName='ename' name='name'>
+       <span style="color: red;" *ngIf="ename?.invalid && ename?.touched">Please insert email address</span>
+     </div>
+   <!-- ================================= -->
+   <div class="form-group">
+     <label for="exampleInputUsername  mt-5">Password</label>
+     <input type="text" class="form-control" placeholder="Enter Your password..." formControlName='password' name='password'>
+     <span style="color: red;" *ngIf="password?.invalid && password?.touched">Please insert password</span>
+   </div>
+   
+ <button type="submit" class="btn btn-success btn-sm btn-block">Sign in</button>
+       <div class="form-group mt-2 ml-5" >
+        
+         <p>New user?<a href="">Creat an Account. </a></p>
+       </div>
+      
+     </form>
+   </div>
+   
+   </div>
+   
+   
