@@ -1,0 +1,22 @@
+.container
+{width: 400px;
+    box-shadow:0px 0px 5px ;
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding:10px 20px 0px 20px;
+}
+.margin{
+  margin-left: 140px;
+  color: #ffffff;
+  font-size: 25px;
+}
+input{
+    background-color:#f1eeee;
+}
+a{
+    color: blue;
+}
+label{
+    color: #000000;
+    
+}
