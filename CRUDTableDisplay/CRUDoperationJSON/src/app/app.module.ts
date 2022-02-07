@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import{HttpClientModule} from '@angular/common/http'
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import{HttpClientModule} from '@angular/common/http'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,ReactiveFormsModule,HttpClientModule
+    AppRoutingModule,ReactiveFormsModule,HttpClientModule,RegisterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
