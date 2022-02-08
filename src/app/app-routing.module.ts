@@ -4,7 +4,8 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 
-const routes: Routes = [{path:'addemployee',component:AddEmployeeComponent},
+const routes: Routes = [{path:'',redirectTo:'login',pathMatch:'full'},
+{path:'addemployee',component:AddEmployeeComponent},
 {path:'registeration',component:RegisterComponent},
 {path:'login',component:LoginComponent}];
 

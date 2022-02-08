@@ -25,5 +25,9 @@ deleteEmployee(id:number){
   return this.api.delete('http://localhost:3000/posts/'+id)
 }
 
+RegisterValSave(data:any){
+return this.api.post('http://localhost:3000/signup',data)
+}
+
 }
 

@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "fullname": "sasi",
+      "designation": "developer",
+      "age": "24",
+      "salary": "300000",
+      "id": 1
+    },
+    {
+      "fullname": "sasi",
+      "designation": "developer",
+      "age": "20",
+      "salary": "30000",
+      "id": 2
+    }
+  ],
+  "signup": [
+    {
+      "name": "Sasikumar.K",
+      "username": "sasi358459",
+      "email": "s@s.com",
+      "pass": "Sasi26@raj",
+      "cpass": "Sasi26@raj",
+      "id": 1
+    },
+    {
+      "name": "Shivam",
+      "username": "shivam123",
+      "email": "shivam@gmail.com",
+      "pass": "Shivam@123",
+      "cpass": "Shivam@123",
+      "id": 2
+    },
+    {
+      "name": "Kirankumar",
+      "username": "kiran123",
+      "email": "k@k.com",
+      "pass": "Sasi26@raj",
+      "cpass": "Sasi26@raj",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
